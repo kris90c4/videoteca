@@ -1,0 +1,11 @@
+header{color:green;text-align: center;}
+
+body{background-color: black;}
+
+nav ul li{display:inline;}
+
+a.link{text-decoration:none;cursor:pointer;color: green;background-color: black;padding: 3px;}
+
+.link:hover {display:inline;background-color: rgb(55,55,55);}
+
+.active {border-bottom: 5px solid green;}
