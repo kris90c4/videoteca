@@ -35,17 +35,9 @@
 		<header>
 			<h1>BENDER'S SERVER</h1>
 		</header>
-		<nav>
+		
 		<?php menuh(); ?>
-			<!--h1>
-				<ul>
-				  <li class="active"><a  class="link" href="Index.html">Portada</a></li>
-				  <li><a class="link" href="Series.html">Series</a></li>
-				  <li><a class="link" href="Peliculas.html">Peliculas</a></li>
-				</ul>
-			</h1-->
-		</nav>
-
+		
 		<video src="G:\series\Dark Matter\Dark.Matter.1x01.HDTV.XviD.[www.DivxTotaL.com].mp4" height="500" controls preload="none";></video>
 
 

@@ -15,15 +15,7 @@
 		</header>
 		<nav>
 		<?php menuh(); ?>
-			<!--h1>
-				<ul>
-				  <li class="active"><a  class="link" href="Index.html">Portada</a></li>
-				  <li><a class="link" href="Series.html">Series</a></li>
-				  <li><a class="link" href="Peliculas.html">Peliculas</a></li>
-				</ul>
-			</h1-->
 		</nav>
-
 
 	</body>
 </html>

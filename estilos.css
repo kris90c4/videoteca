@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+h1{
+	color: #D8D8D8;
+    text-align: center;
+    font-family: Courier;
+    font-size: 3em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active > a {
+    background-color: #333;
+    color: white;
+    
+}
+/*li a:visited:not(.active){
+    color: black
+}
+li a :not(.active){
+    color: #333;
+}
+
+li a:hover:not(.active) {
+    color: white;
+}
+*/
+
+
+
+*/
