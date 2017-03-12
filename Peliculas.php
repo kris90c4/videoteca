@@ -1,0 +1,73 @@
+<?php 
+	include "menu.php";
+?>
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<title>Bender's Server"</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" media="screen" href="estilos.css">
+		<script type="text/javascript">
+			function failed(e) {
+			   // video playback failed - show a message saying why
+			   switch (e.target.error.code) {
+			     case e.target.error.MEDIA_ERR_ABORTED:
+			       alert('You aborted the video playback.');
+			       break;
+			     case e.target.error.MEDIA_ERR_NETWORK:
+			       alert('A network error caused the video download to fail part-way.');
+			       break;
+			     case e.target.error.MEDIA_ERR_DECODE:
+			       alert('The video playback was aborted due to a corruption problem or because the video used features your browser did not support.');
+			       break;
+			     case e.target.error.MEDIA_ERR_SRC_NOT_SUPPORTED:
+			       alert('The video could not be loaded, either because the server or network failed or because the format is not supported.');
+			       break;
+			     default:
+			       alert('An unknown error occurred.');
+			       break;
+			   }
+			 }
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>BENDER'S SERVER</h1>
+		</header>
+		<nav>
+		<?php menuh(); ?>
+			<!--h1>
+				<ul>
+				  <li class="active"><a  class="link" href="Index.html">Portada</a></li>
+				  <li><a class="link" href="Series.html">Series</a></li>
+				  <li><a class="link" href="Peliculas.html">Peliculas</a></li>
+				</ul>
+			</h1-->
+		</nav>
+
+		<video src="G:\series\Dark Matter\Dark.Matter.1x01.HDTV.XviD.[www.DivxTotaL.com].mp4" height="500" controls preload="none";></video>
+
+
+
+		<video controls>
+			<source src="E:\Pelis\El Hobbit 1 Un viaje inesperado Version Extendida [MicroHD][1080 px][AC3 5.1-Castellano-AC3 5.1 Ingles+Subs][ES-EN]\El Hobbit1VExtendidaM1080.www.newpct1.com.mkv" type='video/mp4' />
+		</video>
+
+		<object classid="clsid:67DABFBF-D0AB-41fa-9C46-CC0F21721616" width="320" height="260" codebase="http://go.divx.com/plugin/DivXBrowserPlugin.cab">
+
+ <param name="custommode" value="none" />
+
+  <param name="autoPlay" value="false" />
+  <param name="src" value="E:\Pelis\El Hobbit 1 Un viaje inesperado Version Extendida [MicroHD][1080 px][AC3 5.1-Castellano-AC3 5.1 Ingles+Subs][ES-EN]\El Hobbit1VExtendidaM1080.www.newpct1.com.mkv" />
+
+<embed type="video/divx" src="E:\Pelis\El Hobbit 1 Un viaje inesperado Version Extendida [MicroHD][1080 px][AC3 5.1-Castellano-AC3 5.1 Ingles+Subs][ES-EN]\El Hobbit1VExtendidaM1080.www.newpct1.com.mkv" custommode="none" width="320" height="260" autoPlay="false"  pluginspage="http://go.divx.com/plugin/download/">
+</embed>
+</object>
+<br />No video? <a href="http://www.divx.com/software/divx-plus/web-player" target="_blank">Download</a> the DivX Plus Web Player.
+
+<p><video src="http://jell.yfish.us/media/Jellyfish-3-Mbps.mkv" type='video/x-matroska; codecs="theora, vorbis"' autoplay controls onerror="failed(event)" ></video></p>
+<p><a href="YOU mkv FILE LINK GOES HERE TO DOWNLOAD">Download the video file</a>.</p>
+		
+	</body>
+</html>
